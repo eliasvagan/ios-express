@@ -5,8 +5,15 @@
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
-  "author": "Elias",
-  "license": "ISC"
+  "author": "Elias B. Vågan",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^7.31.0",
+    "express": "^4.17.1",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12",
+    "query-string": "^7.0.1"
+  }
 }
