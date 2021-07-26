@@ -1,0 +1,12 @@
+{
+  "name": "ios-express",
+  "version": "1.0.0",
+  "description": "A simple node express server to communiciate with iOS shortcuts",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "author": "Elias",
+  "license": "ISC"
+}
